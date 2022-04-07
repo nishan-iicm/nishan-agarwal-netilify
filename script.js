@@ -69,7 +69,7 @@ var speed = 50;
 
 
 function typeWriter() {
-    var txt = '/ <"name" : "Nishan Agarwal",/<"introduction" : "I am a full stack developer and I have a Bachelor Degree in Computer Science and Engineering. I am currently working on MERN stack",/<"email" : "nishan.iicm@gmail.com",/<"location" : "Dhanbad, India",/<"hobbies" : "Reading about technologies"  //';
+    var txt = '/ <"name" : "Nishan Agarwal",/<"introduction" : "I am a associate software engineer and I have a Bachelor Degree in Computer Science and Engineering. I am currently working on cloudcomputing",/<"email" : "nishan.iicm@gmail.com",/<"location" : "Dhanbad, India",/<"hobbies" : "Reading about technologies"  //';
     if (i == 0)
         document.getElementById("myself").innerHTML += "{<p class='tab' id='tab'> ";
     if (i < txt.length) {
