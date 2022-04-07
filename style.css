@@ -1,0 +1,477 @@
+body,
+html,
+* {
+    padding: 0em;
+    margin: 0em;
+}
+
+body {
+    background-image: url('images/brick.png');
+    background-size: 10vh;
+    background-repeat: repeat;
+    background-color: brown;
+}
+
+.sky {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2vh;
+    overflow: hidden;
+    height: 25vh;
+}
+
+.cloud1 {
+    position: relative;
+    height: 10vh;
+    left: 40%;
+}
+
+.cloud2 {
+    position: relative;
+    left: 70%;
+    height: 10vh;
+}
+
+.avtar {
+    position: absolute;
+    height: 30vh;
+    top: 50vh;
+}
+
+.avtar-last {
+    position: absolute;
+    height: 30vh;
+    top: 60vh;
+}
+
+.avtar2 {
+    position: absolute;
+    height: 13vh;
+    bottom: 1vh;
+    display: none;
+}
+
+.avtar3 {
+    position: absolute;
+    height: 10vh;
+    top: 1vh;
+    left: 3vh;
+    display: none;
+}
+
+.pipe2 {
+    position: absolute;
+    height: 25vh;
+    bottom: 0vh;
+    right: 0vh;
+    display: none;
+    z-index: 1;
+}
+
+.header {
+    background: #2DBEF2;
+    border-bottom: 5vh solid limegreen;
+    height: auto;
+    width: 100%;
+}
+
+.sun {
+    height: 16vh;
+    width: 16vh;
+    background-color: #FAFD0F;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.ground {
+    display: flex;
+    align-items: flex-end;
+    height: 50vh;
+    overflow: hidden;
+    /* justify-content: space-around; */
+}
+
+.ground2 {
+    display: flex;
+    align-items: flex-end;
+    height: 60vh;
+    overflow: hidden;
+    /* justify-content: space-around; */
+}
+
+.tree {
+    height: 30vh;
+    position: relative;
+    left: 70vw;
+    justify-content: flex-end;
+}
+
+.pipe {
+    height: 30vh;
+    position: relative;
+    left: 50vw;
+}
+
+.coin {
+    height: 10vh;
+    position: absolute;
+    left: 10vw;
+    align-self: flex-start;
+}
+
+.name {
+    font-size: 5vh;
+    color: white;
+    display: none;
+    position: absolute;
+    align-self: center;
+    left: 10vw;
+    align-self: flex-start;
+    font-family: 'Cabin', sans-serif;
+}
+
+header {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    display: none;
+    align-items: center;
+    background-image: url('images/brick.png');
+    background-size: 10vh;
+    background-repeat: repeat;
+    background-color: brown;
+}
+
+.heading {
+    font-size: 5vh;
+    color: white;
+    display: none;
+    position: absolute;
+    align-self: center;
+    left: 50vw;
+    font-family: 'Cabin', sans-serif;
+}
+
+.dig-avatar {
+    height: 20vh;
+    display: none;
+}
+
+.aboutme {
+    display: none;
+    background-image: url('images/brick.png');
+    background-size: 10vh;
+    background-repeat: repeat;
+    background-color: brown;
+    height: 79vh;
+    width: 100vw;
+}
+
+.myself {
+    padding: 3vh 3vh;
+    color: #00fa00;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.myself button {
+    color: #00fa00;
+    font-size: 3vh;
+    background: transparent;
+    border: 0em;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.tab {
+    padding-left: 7vh;
+}
+
+.water {
+    background: #0da5ff;
+    height: 93vh;
+    border-bottom: 7vh solid limegreen;
+    display: none;
+}
+
+.pipe3 {
+    display: none;
+    height: 20vh;
+    position: absolute;
+    top: 0vh;
+    left: 1vh;
+    z-index: 1;
+}
+
+.project-title {
+    font-size: 7vh;
+    color: white;
+    position: absolute;
+    top: 10vh;
+    left: 5vh;
+    font-family: 'roboto';
+    display: none;
+}
+
+.projects {
+    display: flex;
+    padding-top: 10vh;
+    padding-left: 12vw;
+    flex-wrap: wrap;
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.5);
+    color: #0066FF;
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    min-height: 25vh;
+    padding: 1vh;
+    width: 40vw;
+    border-radius: 1em;
+    margin: 1vh;
+}
+
+.project-btn {
+    color: darkblue;
+    background: white;
+    width: 25vh;
+    border: 0;
+    height: 5vh;
+    margin-top: 2vh;
+    font-size: 2vh;
+    border-radius: 0.5em;
+    font-weight: 600;
+}
+
+.project-btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.projects::-webkit-scrollbar {
+    display: none;
+}
+
+.card p {
+    font-size: 3vh;
+    text-align: justify;
+}
+
+.project-img {
+    width: 10vh;
+    margin: 0 auto;
+}
+
+.next-btn {
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 3vh;
+    font-family: roboto;
+    font-weight: bold;
+    position: absolute;
+    top: 88vh;
+    display: none;
+    left: 85%;
+}
+
+.next-btn2 {
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: roboto;
+    position: absolute;
+    top: 83vh;
+    display: none;
+    left: 72%;
+}
+
+.next-btn img {
+    height: 3vh;
+}
+
+.next-btn2 img {
+    height: 3vh;
+}
+
+.pole {
+    height: 60vh;
+    position: relative;
+    left: 41vh;
+}
+
+.flag {
+    align-self: flex-start;
+    height: 15vh;
+    position: relative;
+    left: 38.8vh;
+    margin-top: 1vw;
+    display: none;
+}
+
+.flag-text {
+    font-size: 2vh;
+    color: white;
+    position: absolute;
+    left: 45vh;
+    top: 47vh;
+    display: none;
+    align-self: flex-start;
+}
+
+.name2 {
+    font-size: 5vh;
+    color: yellow;
+    display: none;
+    position: absolute;
+    align-self: center;
+    left: 70vh;
+    top: 50vh;
+    align-self: flex-start;
+    font-family: 'Cabin', sans-serif;
+}
+
+.social-links {
+    align-self: start;
+    display: flex;
+    position: relative;
+    align-items: center;
+    left: 43vh;
+    flex-wrap: wrap;
+    width: 70vh;
+    justify-content: center;
+    align-items: center;
+    top: 30vh;
+    height: auto;
+}
+
+.social-links button {
+    font-size: 2.5vh;
+    padding: 1vh;
+    width: 20vh;
+    margin: 1vh;
+    background-color: white;
+    font-family: 'Cabin', sans-serif;
+    border: 0;
+    border-radius: 0.2em;
+}
+
+.social-links button img {
+    height: 3vh;
+}
+
+.flag-text span {
+    color: red;
+    font-size: 3vh;
+}
+
+@media only screen and (max-width: 1100px) {
+    .flag-text {
+        font-size: 2vh;
+        color: white;
+        position: absolute;
+        left: 4vh;
+        top: 43vh;
+        display: none;
+        align-self: flex-start;
+    }
+    .social-links button {
+        font-size: 2vh;
+        padding: 1vh;
+        width: 20vh;
+        margin: 0.4vh;
+        background-color: white;
+        font-family: 'Cabin', sans-serif;
+        border: 0;
+        border-radius: 0.2em;
+    }
+    .social-links {
+        align-self: start;
+        display: flex;
+        position: relative;
+        align-items: center;
+        left: -3vh;
+        flex-wrap: wrap;
+        width: 70vh;
+        top: 23vh;
+        height: auto;
+    }
+    .name2 {
+        font-size: 3.5vh;
+        color: yellow;
+        display: none;
+        position: absolute;
+        align-self: center;
+        left: 19vh;
+        top: 47vh;
+        align-self: flex-start;
+        font-family: 'Cabin', sans-serif;
+    }
+    .avtar-last {
+        position: absolute;
+        height: 20vh;
+        top: 70vh;
+    }
+    .pole {
+        height: 45vh;
+        position: relative;
+        left: 10vh;
+    }
+    .flag {
+        align-self: flex-start;
+        height: 12vh;
+        position: relative;
+        left: -1.2vh;
+        top: 1vh;
+        display: none;
+    }
+    .next-btn2 {
+        font-size: 2vh;
+        left: 40%;
+        top: 85vh;
+    }
+    .next-btn {
+        left: 66%;
+        top: 88vh;
+        font-size: 2vh;
+    }
+    .myself {
+        font-size: 2vh;
+    }
+    .tab {
+        padding-left: 5vh;
+    }
+    .card {
+        min-height: 20vh;
+        width: 80vw;
+    }
+    .projects {
+        display: flex;
+        padding-top: 2vh;
+        padding-left: 10vh;
+        flex-wrap: wrap;
+        height: 80vh;
+        overflow-y: scroll;
+    }
+    .card p {
+        font-size: 2vh;
+    }
+    .project-btn {
+        font-size: 2vh;
+        height: 4vh;
+        margin-top: 1vh;
+    }
+}

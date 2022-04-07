@@ -1,0 +1,145 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is the portfolio of Mohit Tanwani">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <link rel="icon" href="favicon.ico">
+    <title>Nishan Agarwal</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="sky">
+            <span class="sun"></span>
+            <img src="images/cloud.png" class="cloud1" />
+            <img src="images/cloud.png" class="cloud2" />
+
+        </div>
+        <img src="images/avatar.png" id="avtar" class="avtar" />
+        <div class="ground">
+
+            <img src="images/coin.png" class="coin" />
+            <h1 class="name">Hello, I am Nishan</h1>
+            <img src="images/pipe.png" class="pipe" />
+            <div class="trees">
+                <img src="images/tree.png" class="tree" />
+                <img src="images/tree.png" class="tree" />
+            </div>
+        </div>
+
+    </div>
+
+    <div id="aboutme-page">
+        <header>
+            <img src="images/digavatar.png" class="dig-avatar" />
+            <h1 class="heading">About Me </h1>
+        </header>
+        <div class="aboutme"></div>
+
+        <p class="myself" id="myself"></p>
+        <img src="images/pipe2.png" id="pipe2" class="pipe2" />
+        <img src="images/avatar-skating.png" id="avtar2" class="avtar2" />
+
+    </div>
+    <div class="water">
+        <img src="images/pipe3.png" class="pipe3" />
+        <img src="images/avtar-water.png" class="avtar3" />
+        <h1 class="project-title">
+            P<br>R<br>O<br>J<br>E<br>C<br>T<br>S
+        </h1>
+        <button class="next-btn2" onclick="openLink('https://github.com/nishan-iicm')">More Projects <img src="images/fish2.png" /></button>
+        <button class="next-btn" onclick="gotoSocialLinks()">Social Links <img src="images/fish1.png" /></button>
+
+        <div id="project-wrapper" style="display: none;">
+            <div class="projects">
+                <div class="card">
+                    <img src="images/task_tracker.png" class="project-img" />
+                    <p><b>Task Tracker : </b>A software tool that helps to manage the task to be done.We can also prioritise the task as per our needs.</p>
+                    <div class="project-btns">
+                        <button class="project-btn" onclick="openLink('https://nishan-iicm.github.io/Task-Tracker/')">Live Demo &#127758;</button>
+                        <button class="project-btn" onclick="openLink('https://github.com/nishan-iicm/Task-Tracker')">Source code <img src="images/git.png" style="height: 2vh;" /></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/download.png" class="project-img" />
+                    <p><b>Amazon Clone : </b>An ecommerce site that provide an end-to-end funtionality to the user. 
+
+                    </p>
+                    <div class="project-btns">
+                        <button class="project-btn" onclick="openLink('https://nishan-iicm.github.io/Amazon-Clone/')">Live Demo &#127758;</button>
+                        <button class="project-btn" onclick="openLink('https://github.com/nishan-iicm/Amazon-Clone')">Source code <img src="images/git.png" style="height: 2vh;" /></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/get_github_info.jpg" class="project-img" />
+                    <p><b>Get-Github Info : </b>Get-Github Info is a website with a feature, which provide user to search for a particular member by providing thier github username.
+                    </p>
+                    <div class="project-btns">
+                        <button class="project-btn" onclick="openLink('https://nishan-iicm.github.io/GetGithubInfo/')">Live Demo &#127758;</button>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/indipick.webp" class="project-img" />
+                    <p><b>Indipick: </b>It is a public app that allows user to find indian alternatives for foreign brand. </p>
+                    <div class="project-btns">
+                        <button class="project-btn" onclick="openLink('https://play.google.com/store/apps/details?id=com.system.indipick2&hl=en_IN&gl=US')">Live Demo &#127758;</button>
+                        <!-- <button class="project-btn" onclick="openLink('https:\/\/github.com\/tanwanimohit\/Chat-App')">Source code <img src="images/git.png" style="height: 2vh;" /></button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header" id="page3" style="display: none;">
+        <div class="sky">
+            <span class="sun"></span>
+            <img src="images/cloud.png" class="cloud1" />
+            <img src="images/cloud.png" class="cloud2" />
+
+        </div>
+        <img src="images/avatar.png" id="avtar-last" class="avtar-last" />
+
+
+        <div class="ground2">
+            <img src="images/pole.png" class="pole" />
+            <img src="images/flag.png" class="flag" />
+            <h1 class="flag-text"><b>&lt;&#47;&gt; </b>with <span>&hearts;</span> in India</h1>
+            <h1 class="name2">Say hi to me &#128075;</h1>
+
+            <div class="social-links" style="display: none;">
+
+                <button onclick="openLink('https:\/\/github.com\/nishan-iicm')">Github <img src="images/git.png"/></button>
+                <!-- <button onclick="openLink('https:\/\/twitter.com\/immohittanwani')">Twitter <img src="images/twitter.webp"/></button> -->
+                <button onclick="openLink('https:\/\/www.linkedin.com\/in\/nishan-agarwal\/')">LinkedIn <img src="images/linkedin.png"/></button>
+                <!-- <button onclick="openLink('https:\/\/www.instagram.com\/tanwani_mohit\/')">Instagram <img src="images/insta.png"/></button> -->
+                <button onclick="openLink('https://nishan-iicm.github.io/nishanagarwal.github.io/Nishan%20Agarwal_CV.pdf')">Resume <img src="favicon.ico"/></button>
+                <div style="width:100%; display:flex; justify-content: center; color: white; font-size: 3vh;  align-self: flex-start;">
+                    <p> <img src="images/signature (2).png" style="height: 5vh; " /> </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164002370-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-164002370-1');
+</script>
+
+</html>
