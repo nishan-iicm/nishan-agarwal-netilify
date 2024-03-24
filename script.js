@@ -69,7 +69,7 @@ var speed = 50;
 
 
 function typeWriter() {
-    var txt = '/ <"name" : "Nishan Agarwal",/<"introduction" : "I am a associate software engineer having a Bachelor Degree in Computer Science and Engineering. I am currently working/learning ew edge technology ",/<"email" : "nishan.iicm@gmail.com",/<"location" : "Dhanbad, India",/<"hobbies" : "Reading about technologies"  //';
+    var txt = '/ <"name" : "Nishan Agarwal",/<"hello world": "Web Dev and Android Dev Voice 🏅  | Backend Dev Powered by AI 🦾 | Tcs 🧪 | DSA | MERN | Spring Boot | Gen AI | System Design |. I am currently working/learning new edge technology ",/<"email" : "nishan.iicm@gmail.com",/<"location" : "Kolkata, India",/<"hobbies" : "Reading about technologies"  //';
     if (i == 0)
         document.getElementById("myself").innerHTML += "{<p class='tab' id='tab'> ";
     if (i < txt.length) {
@@ -124,7 +124,7 @@ function projects() {
 }
 
 function opemResume() {
-    window.open("https://nishan-iicm.github.io/nishanagarwal.github.io/Nishan%20Agarwal_CV.pdf", "_blank");
+    window.open("https://nishan-iicm.github.io/nishanagarwal.github.io/Nishan%20Agarwal%20Resume.pdf", "_blank");
 }
 
 function floating() {
